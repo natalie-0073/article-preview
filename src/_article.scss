@@ -1,0 +1,102 @@
+@import './variables';
+// html{
+//     background-color: $light-grayish-blue;
+    
+// }
+main{
+    background-color: $light-grayish-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    color: $very-dark-grayish-blue;
+    .container{
+        width: 780px;
+        height: 320px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+}
+
+    .content{
+        width: 100%;
+        height: 100%;
+        
+      } 
+      .row{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .content__picture{
+        background-image:url("images/drawers.jpg");
+        background-repeat: no-repeat ;
+        background-position: left;
+        background-size: cover;
+        
+        border-radius: 20px 0px 0px 20px;
+    }
+    .content__text{
+        padding: 40px!important;
+        h5{
+            font-weight: 800;
+        }
+        p{
+            font-size: 13px;
+            padding-top: 10px;
+            
+        }
+    }
+.content__contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    // justify-content: space-between;
+}
+.content__contacts-icon{
+   
+    img{width: 50px;
+        border-radius: 50%;
+    }
+    }
+.content__contacts-info{
+    .content__contact-info--name{
+        font-weight: 800;
+    }
+    p{
+        margin: 0;
+            padding: 0;
+    }
+   
+}
+.content__contacts-share{
+   margin-left: auto;
+}
+@media(max-width:576px){
+    main{
+        .container{
+            height: 500px;
+            width: 350px;
+        }
+    }
+    .content__picture{
+        border-radius: 0;
+        height: 40%;
+    }
+   
+    
+}      
+@media(max-width:768px){
+    .content__text{
+        padding: 22px!important;
+    }
+}
+        
+        
+    
+    
+
