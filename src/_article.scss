@@ -1,8 +1,5 @@
 @import './variables';
-// html{
-//     background-color: $light-grayish-blue;
-    
-// }
+
 .content{
     background-color: $light-grayish-blue;
     display: flex;
@@ -21,8 +18,7 @@
         padding: 0;
         .row{
             margin: 0;
-            // max-width: 100%;
-            // max-height: 100%;
+            
             
         }
     }
@@ -57,7 +53,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
-    // justify-content: space-between;
+    
 }
 .content__contacts-icon{
    
@@ -129,7 +125,7 @@
     }
 }
 
-.content__contacts-share{}
+
 @media(max-width:576px){
     .clicked{
         .triangle{
