@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './_article.scss';
 import avatar from './images/avatar-michelle.jpg';
 import share from './images/icon-share.svg';
